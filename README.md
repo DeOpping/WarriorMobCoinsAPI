@@ -7,18 +7,35 @@ Latest Release:<br>
 ![Release](https://jitpack.io/v/DeOpping/WarriorMobCoinsAPI.svg)
 
 
-In your build.gradle file
-
+build.gradle
 ```gradle
 repositories {
     maven { url = 'https://jitpack.io' }
 }
 
 dependencies {
-    compileOnly 'dev.paracausal:WarriorMobCoinsAPI:{release}'
+    compileOnly 'dev.paracausal:WarriorMobCoinsAPI:{version}'
 }
 ```
-*Replace `{release}` with the latest release shown above!*
+pom.xml
+```xml
+<repositories>
+    <repository>
+        <id>jitpack</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>dev.paracausal</groupId>
+        <artifactId>WarriorMobCoinsAPI</artifactId>
+        <version>{version}</version>
+        <scope>provided</scope>
+    </dependency>
+</dependencies>
+```
+*Replace `{version}` with the latest release shown above!*
 <br><br>
 
 Add WarriorMobCoins as a dependency in your plugin.yml:
