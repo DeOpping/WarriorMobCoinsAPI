@@ -3,7 +3,7 @@ The API for WarriorMobCoins.
 
 ## Using The API In Your Plugin
 Latest Release:<br>
-![Release](https://jitpack.io/v/dev.paracausal/WarriorMobCoinsAPI.svg)
+![Release](https://jitpack.io/v/DeOpping/WarriorMobCoinsAPI.svg)
 
 <br>
 build.gradle
