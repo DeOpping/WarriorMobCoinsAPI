@@ -24,7 +24,7 @@ public class MobCoinDropEvent extends Event implements Cancellable {
     public Player getPlayer() { return player; }
     public Entity getMob() { return mob; }
 
-    public BigDecimal getAmount() { return amountDropped; }
+    public BigDecimal amount() { return amountDropped; }
 
     public void setAmount(final BigDecimal amount) { amountDropped = amount; }
     public void setAmount(final double amount) { amountDropped = BigDecimal.valueOf(amount); }
